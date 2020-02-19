@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on mount matches snapshot 1`] = `<Component />`;
+
+exports[`on mount matches snapshot 2`] = `<Component />`;
+
+exports[`on mount matches snapshot 3`] = `<Component />`;
+
+exports[`on mount matches snapshot 4`] = `<Component />`;

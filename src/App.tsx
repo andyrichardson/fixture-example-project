@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
-import { Posts, CreatePost } from "./pages";
+import { PostsPage, ProfilePage } from "./pages";
 import { Header } from "./components";
 
 const routes = [
-  { label: "Posts", route: "/", component: <Posts /> },
-  { label: "Create", route: "/create", component: <CreatePost /> }
+  { label: "Feed", route: "/", component: <PostsPage /> },
+  { label: "Profile", route: "/create", component: <ProfilePage /> }
 ];
 
 export const App = () => {
@@ -21,7 +21,7 @@ export const App = () => {
   return (
     <>
       <Header>
-        <Header.Title>Blog</Header.Title>
+        <Header.Title>Feedmidable</Header.Title>
         <Header.Nav>
           {routes.map(({ label, route }) => (
             <Header.NavItem

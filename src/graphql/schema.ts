@@ -1,29 +1,39 @@
 import { makeExecutableSchema } from "graphql-tools";
 
-let blogs = [
+let posts = [
   { id: 1, title: "My blog", content: "Hello" },
   { id: 2, title: "My blog", content: "Hello" },
   { id: 3, title: "My blog", content: "Hello" }
 ];
 
 export const typeDefs = `
-  type Blog {
+  type Post {
     id: ID
     title: String!
     content: String!
   }
 
   type Query {
-    blogs: [Blog]
+    posts: [Post]
+  }
+
+  type Mutation {
+    createPost(title: String!, content: String!): Post!
   }
 `;
 
 const resolvers = {
   Query: {
-    blogs: async () =>
-      new Promise(resolve => {
-        setTimeout(() => resolve(blogs), 500);
-      })
+    posts: async () => {
+      await delay(500);
+      return posts;
+    }
+  },
+  Mutation: {
+    createPost: async args => {
+      await delay(500);
+      console.log(args);
+    }
   }
 };
 
@@ -31,3 +41,5 @@ export const schema = makeExecutableSchema({
   typeDefs,
   resolvers
 });
+
+const delay = (t: number) => new Promise(resolve => setTimeout(resolve, t));

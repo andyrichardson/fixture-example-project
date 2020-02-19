@@ -2,4 +2,8 @@ export * from "./Button";
 export * from "./Card";
 export * from "./Header";
 export * from "./Main";
+export * from "./Modal";
+export * from "./Spinner";
 export * from "./TextInput";
+export * from "./TextAreaInput";
+export * from "./ValidationError";

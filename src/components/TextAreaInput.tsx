@@ -1,20 +1,7 @@
-import React from "react";
-import styled, {
-  StyledComponentProps,
-  StyledComponent
-} from "styled-components";
+import styled from "styled-components";
 import { darken } from "polished";
 
-interface TextInputProps {}
-
-export const TextInput: StyledComponent<
-  "input",
-  any,
-  TextInputProps
-> = styled.input.attrs<TextInputProps>(({ type = "text", ...props }) => ({
-  type,
-  ...props
-}))`
+export const TextAreaInput = styled.textarea`
   display: block;
   margin: 10px 0;
   margin-bottom: 5px;

@@ -1,22 +1,17 @@
 import React from "react";
-import { TextInput } from "./TextInput";
+import { TextAreaInput } from "./TextAreaInput";
 import { Main } from "./Main";
 import { ValidationError } from "./ValidationError";
 
 export default {
   text: (
     <Main>
-      <TextInput type="text" placeholder="Enter name" />
-    </Main>
-  ),
-  password: (
-    <Main>
-      <TextInput type="password" value="pass" />
+      <TextAreaInput placeholder="Enter name" />
     </Main>
   ),
   invalid: (
     <Main>
-      <TextInput aria-invalid value="invalid value" />
+      <TextAreaInput aria-invalid value="invalid value" />
       <ValidationError>Field is not valid</ValidationError>
     </Main>
   )

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on mount matches snapshot 1`] = `
+<styled.main>
+  <h1>
+    This is your profile
+  </h1>
+</styled.main>
+`;

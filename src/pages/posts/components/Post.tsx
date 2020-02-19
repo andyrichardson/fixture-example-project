@@ -2,13 +2,13 @@ import React, { FC } from "react";
 import { Card } from "../../../components";
 import styled from "styled-components";
 
-interface BlogPost {
+interface Post {
   id: number;
   title: string;
   content: string;
 }
 
-export const BlogPost: FC<BlogPost> = ({ title, content }) => (
+export const Post: FC<Post> = ({ title, content }) => (
   <Container>
     <h1>{title}</h1>
     <p>{content}</p>

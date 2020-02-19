@@ -1,7 +1,7 @@
 import React from "react";
 import { never, fromValue } from "wonka";
 import { Provider as UrqlProvider, CombinedError } from "urql";
-import { Posts } from "./Posts";
+import { PostsPage } from "./PostsPage";
 
 const fetchingState = {
   executeQuery: () => never
@@ -20,7 +20,7 @@ const responseState = {
     fromValue({
       operation: query.operation,
       data: {
-        blogs: [
+        posts: [
           { id: 1, title: "Post title", content: "This is a post" },
           { id: 2, title: "Next post", content: "Here is another post" },
           { id: 3, title: "Final post", content: "Final post here" }
@@ -33,29 +33,29 @@ const emptyState = {
   executeQuery: (query: any) =>
     fromValue({
       operation: query.operation,
-      data: { blogs: [] }
+      data: { posts: [] }
     })
 } as any;
 
 export default {
   fetching: (
     <UrqlProvider value={fetchingState}>
-      <Posts />
+      <PostsPage />
     </UrqlProvider>
   ),
   error: (
     <UrqlProvider value={errorState}>
-      <Posts />
+      <PostsPage />
     </UrqlProvider>
   ),
   response: (
     <UrqlProvider value={responseState}>
-      <Posts />
+      <PostsPage />
     </UrqlProvider>
   ),
   empty: (
     <UrqlProvider value={emptyState}>
-      <Posts />
+      <PostsPage />
     </UrqlProvider>
   )
 };
