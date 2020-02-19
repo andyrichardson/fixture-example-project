@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "es6", "es2019"],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
