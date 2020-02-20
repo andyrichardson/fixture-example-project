@@ -17,6 +17,12 @@ To find out more about fixtures and why you might want to use them, check out [t
 
 ![Example dev environment](https://github.com/andyrichardson/fixture-example-project/blob/master/assets/Kapture%202020-02-19%20at%2016.19.33.gif?raw=true)
 
+### Run in CodeSandbox
+
+Navigate to the [CodeSandbox here](https://codesandbox.io/embed/github/andyrichardson/fixture-example-project/tree/code-sandbox-cosmos/?fontsize=14&hidenavigation=1&module=%2Fsrc%2Fpages%2Fposts%2FPostsPage.fixture.tsx&theme=dark) to get started.
+
+### Run locally
+
 ```
 # Install dependencies
 yarn
@@ -24,6 +30,25 @@ yarn
 # Start cosmos
 yarn cosmos
 ```
+
+## Full site
+
+![example site](https://github.com/andyrichardson/fixture-example-project/blob/master/assets/Kapture%202020-02-20%20at%2013.03.54.gif?raw=true)
+
+### Run in CodeSandbox
+
+Navigate to the [CodeSandbox here](https://codesandbox.io/embed/github/andyrichardson/fixture-example-project/tree/master/?fontsize=14&hidenavigation=1&module=%2Fsrc%2Fpages%2Fposts%2FPostsPage.tsx&theme=dark) to get started.
+
+### Run locally
+
+```
+# Install dependencies
+yarn
+
+# Start cosmos
+yarn cosmos
+```
+
 
 
 ## Visual regression
@@ -38,10 +63,5 @@ docker-compose run backstop reference
 docker-compose run backstop test
 ```
 
-## Full site
-
-```
-yarn start
-```
 
 
