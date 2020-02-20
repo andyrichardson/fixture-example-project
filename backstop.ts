@@ -9,7 +9,7 @@ const exec = async () => {
   const newFile = {
     ...config,
     scenarios: fixtures.map(({ fixtureId }) => {
-      const baseUrl = `${cosmosConfig.hostname || "localhost"}:${
+      const baseUrl = `http://${cosmosConfig.hostname || "cosmos"}:${
         cosmosConfig.port
       }/_renderer.html`;
       const getArgs = `?_fixtureId=${encodeURIComponent(
@@ -18,7 +18,8 @@ const exec = async () => {
 
       return {
         url: `${baseUrl}${getArgs}`,
-        label: `${fixtureId.path.replace(/\//g, "-")}-${fixtureId.name}`
+        label: `${fixtureId.path.replace(/\//g, "-")}-${fixtureId.name}`,
+        delay: 2000
       };
     })
   };

@@ -14,101 +14,125 @@
   ],
   "scenarios": [
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22primary%22%7D",
-      "label": "src-components-Button.fixture.tsx-primary"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22primary%22%7D",
+      "label": "src-components-Button.fixture.tsx-primary",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22secondary%22%7D",
-      "label": "src-components-Button.fixture.tsx-secondary"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22secondary%22%7D",
+      "label": "src-components-Button.fixture.tsx-secondary",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22alternate%22%7D",
-      "label": "src-components-Button.fixture.tsx-alternate"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22alternate%22%7D",
+      "label": "src-components-Button.fixture.tsx-alternate",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FCard.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
-      "label": "src-components-Card.fixture.tsx-basic"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FCard.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-Card.fixture.tsx-basic",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FHeader.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
-      "label": "src-components-Header.fixture.tsx-default"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FHeader.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Header.fixture.tsx-default",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FMain.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
-      "label": "src-components-Main.fixture.tsx-default"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FMain.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Main.fixture.tsx-default",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FModal.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
-      "label": "src-components-Modal.fixture.tsx-basic"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FModal.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-Modal.fixture.tsx-basic",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FSpinner.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
-      "label": "src-components-Spinner.fixture.tsx-default"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FSpinner.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Spinner.fixture.tsx-default",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
-      "label": "src-components-TextAreaInput.fixture.tsx-text"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
+      "label": "src-components-TextAreaInput.fixture.tsx-text",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
-      "label": "src-components-TextAreaInput.fixture.tsx-invalid"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
+      "label": "src-components-TextAreaInput.fixture.tsx-invalid",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
-      "label": "src-components-TextInput.fixture.tsx-text"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-text",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22password%22%7D",
-      "label": "src-components-TextInput.fixture.tsx-password"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22password%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-password",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
-      "label": "src-components-TextInput.fixture.tsx-invalid"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-invalid",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FValidationError.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
-      "label": "src-components-ValidationError.fixture.tsx-basic"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FValidationError.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-ValidationError.fixture.tsx-basic",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2Fcomponents%2FCreatePostForm.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
-      "label": "src-pages-posts-components-CreatePostForm.fixture.tsx-basic"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2Fcomponents%2FCreatePostForm.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-pages-posts-components-CreatePostForm.fixture.tsx-basic",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22fetching%22%7D",
-      "label": "src-pages-posts-PostsPage.fixture.tsx-fetching"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22fetching%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-fetching",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22error%22%7D",
-      "label": "src-pages-posts-PostsPage.fixture.tsx-error"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22error%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-error",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22response%22%7D",
-      "label": "src-pages-posts-PostsPage.fixture.tsx-response"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22response%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-response",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22empty%22%7D",
-      "label": "src-pages-posts-PostsPage.fixture.tsx-empty"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22empty%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-empty",
+      "delay": 2000
     },
     {
-      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fprofile%2FProfilePage.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
-      "label": "src-pages-profile-ProfilePage.fixture.tsx-basic"
+      "url": "http://cosmos:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fprofile%2FProfilePage.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-pages-profile-ProfilePage.fixture.tsx-basic",
+      "delay": 2000
     }
   ],
   "paths": {
-    "bitmaps_reference": "backstop_data/bitmaps_reference",
-    "bitmaps_test": "backstop_data/bitmaps_test",
-    "engine_scripts": "backstop_data/engine_scripts",
-    "html_report": "backstop_data/html_report",
-    "ci_report": "backstop_data/ci_report"
+    "bitmaps_reference": ".backstop/bitmaps_reference",
+    "bitmaps_test": ".backstop/bitmaps_test",
+    "engine_scripts": ".backstop/engine_scripts",
+    "html_report": ".backstop/html_report",
+    "ci_report": ".backstop/ci_report"
   },
-  "report": ["browser"],
+  "report": [
+    "browser"
+  ],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": ["--no-sandbox"]
+    "args": [
+      "--no-sandbox"
+    ]
   },
   "waitTimeout": 12000,
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
   "debug": false,
-  "debugWindow": true
+  "debugWindow": false
 }

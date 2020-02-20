@@ -5,7 +5,9 @@
   "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "cosmos": "cosmos"
+    "cosmos": "cosmos",
+    "prepare-backstop": "ts-node backstop.ts",
+    "backstop": "npx wait-on http://cosmos:5000 && backstop --config=backstop.json"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +41,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.1",
+    "typeface-open-sans": "^0.0.75",
     "urql": "^1.9.0"
   }
 }

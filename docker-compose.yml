@@ -1,0 +1,25 @@
+version: "3"
+services:
+  cosmos:
+    image: node:alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+      - backstop:/app/.backstop
+      - node_modules:/app/node_modules
+    entrypoint: /bin/sh -c
+    command:
+      - yarn --frozen-lockfile && yarn prepare-backstop && yarn cosmos
+  backstop:
+    image: backstopjs/backstopjs:latest
+    working_dir: /app
+    entrypoint: yarn backstop
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    depends_on:
+      - cosmos
+
+volumes:
+  backstop:
+  node_modules:

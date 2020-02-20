@@ -8,25 +8,35 @@ To find out more about fixtures and why you might want to use them, check out [t
 
  - 🦅 [Urql](https://github.com/FormidableLabs/urql) (GraphQL client)
  - 🚀 [Cosmos](https://github.com/react-cosmos/react-cosmos) (Fixture bundler & server)
+ - 📸 [Backstop](https://github.com/garris/BackstopJS) (Visual regression)
  - 📦 [Parcel](https://github.com/parcel-bundler/parcel) (Full site bundler & server)
  - ⚛️ [React](https://github.com/facebook/react/) (... it's React)
 
 
-## Getting started
-
-Install dependencies
+## Development
 
 ```
+# Install dependencies
 yarn
-```
 
-Run development environment
-
-```
+# Start cosmos
 yarn cosmos
 ```
 
-Run full site
+
+## Visual regression
+
+Fixtures can be tested for visual changes by using backstop
+
+```
+# Create reference images (from fixtures)
+docker-compose run backstop reference
+
+# Diff current fixtures against reference images
+docker-compose run backstop test
+```
+
+## Full site
 
 ```
 yarn start
