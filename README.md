@@ -15,6 +15,8 @@ To find out more about fixtures and why you might want to use them, check out [t
 
 ## Development
 
+![Example dev environment](https://github.com/andyrichardson/fixture-example-project/blob/master/assets/Kapture%202020-02-19%20at%2016.19.33.gif?raw=true)
+
 ```
 # Install dependencies
 yarn
