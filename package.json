@@ -5,6 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
+    "dev": "yarn cosmos",
     "cosmos": "cosmos",
     "prepare-backstop": "ts-node backstop.ts",
     "backstop": "npx wait-on http://cosmos:5000 && backstop --config=backstop.json"
