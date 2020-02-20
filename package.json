@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "cosmos": "cosmos"
   },
   "keywords": [],
   "author": "",
