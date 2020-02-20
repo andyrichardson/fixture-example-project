@@ -1,0 +1,114 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22primary%22%7D",
+      "label": "src-components-Button.fixture.tsx-primary"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22secondary%22%7D",
+      "label": "src-components-Button.fixture.tsx-secondary"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FButton.fixture.tsx%22%2C%22name%22%3A%22alternate%22%7D",
+      "label": "src-components-Button.fixture.tsx-alternate"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FCard.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-Card.fixture.tsx-basic"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FHeader.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Header.fixture.tsx-default"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FMain.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Main.fixture.tsx-default"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FModal.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-Modal.fixture.tsx-basic"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FSpinner.fixture.tsx%22%2C%22name%22%3A%22default%22%7D",
+      "label": "src-components-Spinner.fixture.tsx-default"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
+      "label": "src-components-TextAreaInput.fixture.tsx-text"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextAreaInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
+      "label": "src-components-TextAreaInput.fixture.tsx-invalid"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22text%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-text"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22password%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-password"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FTextInput.fixture.tsx%22%2C%22name%22%3A%22invalid%22%7D",
+      "label": "src-components-TextInput.fixture.tsx-invalid"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fcomponents%2FValidationError.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-components-ValidationError.fixture.tsx-basic"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2Fcomponents%2FCreatePostForm.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-pages-posts-components-CreatePostForm.fixture.tsx-basic"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22fetching%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-fetching"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22error%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-error"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22response%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-response"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fposts%2FPostsPage.fixture.tsx%22%2C%22name%22%3A%22empty%22%7D",
+      "label": "src-pages-posts-PostsPage.fixture.tsx-empty"
+    },
+    {
+      "url": "localhost:5000/_renderer.html?_fixtureId=%7B%22path%22%3A%22src%2Fpages%2Fprofile%2FProfilePage.fixture.tsx%22%2C%22name%22%3A%22basic%22%7D",
+      "label": "src-pages-profile-ProfilePage.fixture.tsx-basic"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "waitTimeout": 12000,
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": true
+}

@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "esnext",
+    "module": "commonjs",
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "lib": ["dom", "es6", "es2019"],
     "jsx": "react",
@@ -10,5 +11,5 @@
     "rootDir": "src",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "include": ["./backstop.ts", "./src/**/*.ts", "./src/**/*.tsx"]
 }

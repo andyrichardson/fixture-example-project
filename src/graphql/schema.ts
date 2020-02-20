@@ -30,7 +30,7 @@ const resolvers = {
     }
   },
   Mutation: {
-    createPost: async args => {
+    createPost: async (args: any) => {
       await delay(500);
       console.log(args);
     }
