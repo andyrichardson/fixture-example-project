@@ -1,16 +1,18 @@
 import React, { FC } from "react";
 import { render } from "react-dom";
-import { Provider as UrqlProvider, createClient } from "urql";
+import { Provider as UrqlProvider, createClient, cacheExchange } from "urql";
 import { Theme, GlobalStyle } from "./theme";
 import { ThemeProvider } from "styled-components";
 import { App } from "./App";
-import { schema, executeExchange } from "./graphql";
+import { schema, executeExchange, rootValue } from "./graphql";
 
 const urqlClient = createClient({
   url: "/",
   exchanges: [
+    cacheExchange,
     executeExchange({
-      schema
+      schema,
+      rootValue
     })
   ]
 });

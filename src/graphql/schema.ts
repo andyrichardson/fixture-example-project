@@ -1,4 +1,4 @@
-import { makeExecutableSchema } from "graphql-tools";
+import { buildSchema } from "graphql";
 
 let posts = [
   { id: 1, title: "My blog", content: "Hello" },
@@ -6,7 +6,7 @@ let posts = [
   { id: 3, title: "My blog", content: "Hello" }
 ];
 
-export const typeDefs = `
+export const schema = buildSchema(`
   type Post {
     id: ID
     title: String!
@@ -20,26 +20,19 @@ export const typeDefs = `
   type Mutation {
     createPost(title: String!, content: String!): Post!
   }
-`;
+`);
 
-const resolvers = {
-  Query: {
-    posts: async () => {
-      await delay(500);
-      return posts;
-    }
+export const rootValue = {
+  posts: async () => {
+    await delay(500);
+    return posts;
   },
-  Mutation: {
-    createPost: async (args: any) => {
-      await delay(500);
-      console.log(args);
-    }
+  createPost: async (args: any) => {
+    const newPost = { id: posts.length + 1, ...args };
+    await delay(500);
+    posts = [newPost, ...posts];
+    return newPost;
   }
 };
-
-export const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers
-});
 
 const delay = (t: number) => new Promise(resolve => setTimeout(resolve, t));
