@@ -2,7 +2,7 @@
 
 This is a lightweight example project which uses fixtures! 🎉
 
-To find out more about fixtures and why you might want to use them, check out [this blog post]().
+To find out more about fixtures and why you might want to use them, check out **[this blog post](https://formidable.com/blog/2020/fixture-first/)**.
 
 ### Stack
 
